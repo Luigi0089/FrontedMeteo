@@ -1,0 +1,26 @@
+
+nav{
+  background: #333;;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.custom-margin {
+  background: red;
+  margin: 10px;
+}
+
+.navbar-bg-color h1 {
+  color: #ffffff;
+}
+
+li{
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+button{
+
+  background: rgba(62,152,219,0.91);
+}
+

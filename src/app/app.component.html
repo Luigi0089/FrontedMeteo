@@ -1,0 +1,10 @@
+<app-header></app-header>
+
+<router-outlet></router-outlet>
+
+<div *ngIf="UserService.isLogged" >
+<app-card-db ></app-card-db>
+</div>
+<footer></footer>
+
+<app-footer></app-footer>

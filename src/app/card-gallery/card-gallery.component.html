@@ -1,0 +1,15 @@
+<div class="card-container">
+  <div class="card-square" style="width: 18rem;">
+    <img src="" class="card-img-top" alt="Halloween">
+    <div class="card-body">
+      <h5 class="card-title">{{paese.nome}}</h5>
+      <p class="card-text">Latitudine: {{paese.latitudine}} <br>
+        Longitudine: {{ paese.longitudine}}</p>
+      <button (click)="Submit()" *ngIf="!pulsante" class="btn btn-primary custom-button">Temperatura</button>
+      <p *ngIf="pulsante"> {{this.Temperatura}} C</p>
+      <button href="#" class="btn btn-primary custom-button">Salva</button>
+
+    </div>
+  </div>
+  <!-- Ripeti per altre card -->
+</div>
