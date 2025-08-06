@@ -1,27 +1,48 @@
-# TestFinale
+# Test Finale Frontend – Sistemi Informativi S.p.A.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+Questo progetto rappresenta il **frontend sviluppato come test finale** dell’Academy organizzata da **Sistemi Informativi S.p.A.**  
+L’applicazione è realizzata in **Angular** (versione 18.0.7) e offre un’interfaccia utente semplice e intuitiva per interagire con servizi esterni e funzionalità di autenticazione.
 
-## Development server
+## Descrizione del progetto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Il sito consente agli utenti di:
 
-## Code scaffolding
+- **Registrarsi** tramite form dedicato
+- **Effettuare il login** e accedere ad aree riservate
+- **Cercare località** e visualizzarne informazioni meteorologiche aggiornate
+- **Salvare località tra i preferiti**
+- Visualizzare le **previsioni meteo**, grazie all’integrazione con API esterne
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+L'app comunica con un backend separato per la gestione delle autenticazioni e dei dati utente.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologie utilizzate
 
-## Running unit tests
+- [Angular CLI](https://github.com/angular/angular-cli) v18.0.7
+- TypeScript
+- HTML5 / SCSS
+- API REST
+- Servizi di terze parti per dati meteo
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## Avvio del progetto in locale
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Development server
 
-## Further help
+Per avviare il server di sviluppo, esegui:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+ng serve
+ ```
+Apri il browser su `http://localhost:4200/` per visualizzare l’applicazione.  
+Il server si aggiornerà automaticamente ad ogni modifica del codice.
+
+### Build del progetto
+
+Per compilare il progetto in modalità produzione:
+
+```bash
+ng build
+ ```
